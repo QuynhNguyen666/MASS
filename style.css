@@ -46,7 +46,7 @@ main {
 }
 /*tự động cho TẤT CẢ thẻ <pre> trên trang web*/
 pre {
-    font-family: inherit;
+    font-family: Arial;
     white-space: pre-line;
 }
 /* Đổi màu đỏ cho đoạn chữ Điệp khúc */
