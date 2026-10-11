@@ -44,7 +44,11 @@ main {
     line-height: 1.6;               /* Khoảng cách giữa các dòng chữ (cho thoáng mắt) */
     font-weight: normal;            /* Độ đậm/mảnh của chữ (normal, bold, 400, 600...) */
 }
-
+/*tự động cho TẤT CẢ thẻ <pre> trên trang web*/
+pre {
+    font-family: inherit;
+    white-space: pre-line;
+}
 /* Đổi màu đỏ cho đoạn chữ Điệp khúc */
 p b {
     color: #c0392b;
