@@ -38,11 +38,11 @@ main {
     padding: 20px;
     border-radius: 8px;
     /* --- CÁC THUỘC TÍNH KIỂU CHỮ --- */
-    font-family: Arial, sans-serif; /* Đổi font chữ (ví dụ: Arial, Segoe UI, Roboto) */
-    font-size: 16px;                 /* Cỡ chữ */
-    color: #333333;                 /* Màu chữ (màu xám đậm cho dễ đọc) */
-    line-height: 1.6;               /* Khoảng cách giữa các dòng chữ (cho thoáng mắt) */
-    font-weight: normal;            /* Độ đậm/mảnh của chữ (normal, bold, 400, 600...) */
+    /*font-family: Arial, sans-serif;  Đổi font chữ (ví dụ: Arial, Segoe UI, Roboto) */
+    /*font-size: 16px;                  Cỡ chữ */
+    /*color: #333333;                  Màu chữ (màu xám đậm cho dễ đọc) */
+    /*line-height: 1.6;                Khoảng cách giữa các dòng chữ (cho thoáng mắt) */
+    /*font-weight: normal;             Độ đậm/mảnh của chữ (normal, bold, 400, 600...) */
 }
 /*tự động cho TẤT CẢ thẻ <pre> trên trang web*/
 pre {
