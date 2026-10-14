@@ -6,6 +6,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+
 }
 
 /* Định dạng thanh menu ở trên cùng */
@@ -30,6 +31,26 @@ header {
     margin-bottom: 20px;
 }
 
+/* Khung header làm mốc định vị cho logo bên trong */
+.site-header {
+    position: relative;        /* Tạo mốc tọa độ để logo góc trái nhận diện */
+    text-align: center;        /* Mặc định đưa mọi thứ (chữ) ra giữa */
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Định vị logo dính chặt ở góc bên trái, canh giữa theo chiều dọc */
+.logo-corner {
+    position: absolute;        /* Thoát khỏi luồng thông thường để ghim góc */
+    left: 50px;                /* Cách lề trái 20px */
+    top: 50%;                 /* Tạm dịch xuống */
+    transform: translateY(-50%); /* Căn chuẩn chính giữa theo chiều dọc của header */
+    width: 200px;               /* Kích thước chiều rộng logo (có thể tăng giảm tùy ý) */
+    height: auto;
+}
+
 /* Định dạng khung nội dung */
 main {
     max-width: 700px;
@@ -50,6 +71,37 @@ pre {
     white-space: pre-line;
 }
 /* Đổi màu đỏ cho đoạn chữ Điệp khúc */
-p b {
+p b.chu-do{
     color: #c0392b;
+}
+
+/* Thẻ b in đậm màu xám */
+p b.chu-xam {
+    color:  #333; 
+}
+
+/*cuộn mượt hơn */
+html { scroll-behavior: smooth; }
+
+/* Chừa ra khoảng 60px từ trên xuống (tùy chỉnh độ cao cho vừa menu của bạn) */
+section {
+    scroll-margin-top: 60px; 
+}
+
+
+h2 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px; /* Tạo khoảng trống cho đường kẻ */
+}
+
+/* Tạo đường thẳng trang trí bên dưới h2 */
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;       /* Chiều dài của đường kẻ */
+    height: 3px;       /* Độ dày của đường kẻ */
+    background-color: #c0392b; /* Màu của đường kẻ (trùng với màu điểm nhấn) */
+    margin: 8px auto 0; /* Căn giữa đường kẻ */
+    border-radius: 2px;
 }
